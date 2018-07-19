@@ -1,6 +1,43 @@
 body {
-    background-image: url("https://memegenerator.net/img/instances/35584640/would-i-rather-be-feared-or-loved-easy-both-i-want-people-to-be-afraid-of-how-much-they-love-me.jpg");
+    background-image: url("https://i.imgur.com/1A6kzJN.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
+    background-size: 700px 600px
+}
+
+#linkedinlogo  {
+    position: absolute;
+    left: 1200px;
+    top: 500px;
+}
+
+
+/* Add a background color to the top navigation */
+
+.topnav {
+    background-color: #ffffff;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/* Style the links inside the navigation bar */
+.topnav {
+    color: #000000;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    word-spacing: 50px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ffffff;
+    color: none;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
 }
