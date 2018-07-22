@@ -1,0 +1,20 @@
+h1 ~ h3 {
+  color: #a0a0a0 !important;
+}
+
+h1 ~ h3 {
+  color: red;
+  }
+
+h1 {
+  text-decoration: underline;
+}
+
+/* .boxes {
+  background-color: none;
+} */
+
+/* The first line of every <p> element. */
+p::first-letter {
+    font-size: 200%;
+}
