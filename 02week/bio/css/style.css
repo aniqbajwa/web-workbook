@@ -3,42 +3,47 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    background-size: 700px 600px
+    background-size: 550px 550px
 }
 
 #linkedinlogo  {
     position: absolute;
-    left: 1200px;
+    left: 25px;
     top: 500px;
 }
 
+#instagramlogo  {
+    position: absolute;
+    left: 25px;
+    top: 450px;
+}
 
 
-/* Add a background color to the top navigation */
 
+/* Add a black background color to the top navigation */
 .topnav {
-    background-color: #ffffff;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: #1a53af;
+    overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
-.topnav {
-    color: #000000;
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 25px;
-    text-align: center;
-    word-spacing: 50px;
+    font-size: 17px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ffffff;
-    color: none;
+    background-color: #c4daff;
+    color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #013384;
     color: white;
 }
