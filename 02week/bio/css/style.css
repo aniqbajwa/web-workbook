@@ -1,0 +1,52 @@
+body {
+    background-image: url("https://i.imgur.com/1A6kzJN.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 550px 550px
+}
+
+#linkedinlogo  {
+    position: absolute;
+    left: 25px;
+    top: 500px;
+}
+
+#instagramlogo  {
+    position: absolute;
+    left: 25px;
+    top: 450px;
+}
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #1a53af;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #c4daff;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #013384;
+    color: white;
+}
+
+
+/* test */
