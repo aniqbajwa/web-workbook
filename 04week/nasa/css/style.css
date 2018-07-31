@@ -1,0 +1,9 @@
+body{
+  background-image: url("../img/nasa-background.jpg");
+  width: 850px;
+}
+
+.img-container{
+  display: flex;
+  margin: 0 auto;
+}
