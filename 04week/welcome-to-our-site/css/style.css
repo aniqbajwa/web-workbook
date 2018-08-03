@@ -1,0 +1,48 @@
+body {
+  width: 850px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  background-color: #2bcdc0;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  font-size: 30px;
+}
+
+.flex-contents {
+  display:flex;
+  background-color: black;
+  color: white;
+  height: 324px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.bluebox {
+  background-color: #33a8dd;
+  height: 30px;
+  width: 75%;
+}
+
+.orangebox {
+  background-color: #f36730;
+  height: 30px;
+  width: 75%;
+}
+
+.greenbox {
+  background-color: #2bcdc0;
+  height: 30px;
+  width: 75%;
+}
+
+h2 {
+  font-size: 30px;
+}
