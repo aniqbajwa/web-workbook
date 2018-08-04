@@ -19,7 +19,7 @@ body {
 
 .flex-contents {
   display:flex;
-  background-color: black;
+  background-color: #1b1b1b;
   color: white;
   height: 324px;
   justify-content: space-around;
