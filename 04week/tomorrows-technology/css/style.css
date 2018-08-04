@@ -1,0 +1,10 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+/* Underline for Navbar heading */
+h2 {
+  border-bottom: solid gray 1px;
+}
