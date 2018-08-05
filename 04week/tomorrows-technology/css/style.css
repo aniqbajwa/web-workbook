@@ -8,6 +8,13 @@ h2 {
   border-bottom: solid gray 1px;
 }
 
+a {
+  color:black;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* This is the Navbar */
 .article2 {
   width: 500px;
   margin-right: 10px;
@@ -15,10 +22,9 @@ h2 {
 
 .article1 {
   width: 1600px;
-  /* border: solid red 1px; */
 }
 
-/* Technology */
+/* Technology Button*/
 h4 span{
   background-color: #4d4d4d;
   color: white;
@@ -27,6 +33,26 @@ h4 span{
 }
 
 img {
-  height:90%;
-  width: 90%;
+  height:95%;
+  width: 95%;
+}
+
+ul {
+  list-style-type: none;
+  color: white;
+}
+
+li {
+  border-bottom: solid white 1px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+.usefullinks {
+  display: flex;
+  width: 576px;
+  background-color: #5d5d5d;
+  justify-content: space-around;
 }
