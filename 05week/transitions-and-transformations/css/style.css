@@ -1,0 +1,86 @@
+.allboxes {
+margin: 0 auto;
+width: 50px;
+}
+
+.allboxes:hover :nth-child(odd){
+  transform: translate(-650px);
+  width: 25px;
+  height: 25px;
+}
+
+.allboxes:hover :nth-child(even){
+  transform: translate(500px);
+  width: 200px;
+  height: 200px;
+}
+
+.redsquare {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  margin-bottom: 5px;
+}
+
+.bluesquare {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  margin-bottom: 5px;
+}
+
+.yellowsquare {
+  height: 50px;
+  width: 50px;
+  background-color: yellow;
+  margin-bottom: 5px;
+}
+
+.graysquare {
+  height: 50px;
+  width: 50px;
+  background-color: gray;
+  margin-bottom: 5px;
+}
+
+.purplesquare {
+  height: 50px;
+  width: 50px;
+  background-color: purple;
+  margin-bottom: 5px;
+}
+
+.greensquare {
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  margin-bottom: 5px;
+}
+
+.pinksquare {
+  height: 50px;
+  width: 50px;
+  background-color: pink;
+  margin-bottom: 5px;
+}
+
+.lightbluesquare {
+  height: 50px;
+  width: 50px;
+  background-color: lightblue;
+  margin-bottom: 5px;
+}
+
+.beigesquare {
+  height: 50px;
+  width: 50px;
+  background-color: beige;
+  margin-bottom: 5px;
+}
+
+.lightgraysquare {
+  height: 50px;
+  width: 50px;
+  background-color: lightgray;
+  margin-bottom: 5px;
+}
