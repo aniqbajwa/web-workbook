@@ -28,8 +28,8 @@ body {
 }
 
 .box1image {
-  width: 375px;
-  height: 375px;
+  width: 75%;
+  height: 75%;
   margin-right: 8px;
   border-radius: 10%;
 }
@@ -41,8 +41,8 @@ body {
 }
 
 .box2image {
-  width: 375px;
-  height: 375px;
+  width: 75%;
+  height: 75%;
   margin-right: 8px;
   border-radius: 10%;
 
@@ -54,9 +54,11 @@ body {
 }
 
 .box3image {
-  width: 650px;
-  height: 550px;
-  border-radius: 10%;
+  width: 90%;
+  height: 90%;
+  border-radius: 20%;
+  margin-right: 8px;
+  display: flex;
 }
 
 .box4 {
@@ -69,8 +71,9 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 250px;
-  height: 250px;
+  width: 75%;
+  height: 75%;
+  display: flex;
 }
 
 .box5 {
@@ -83,8 +86,9 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 250px;
-  height: 250px;
+  width: 75%;
+  height: 75%;
+  display: flex;
 }
 
 .box6 {
@@ -94,10 +98,11 @@ body {
 }
 
 .box6image {
-  width: 400px;
-  height: 275px;
+  width: 75%;
+  height: 75%;
   margin-right: 8px;
   border-radius: 10%;
+  display: flex;
 }
 
 .box7 {
@@ -110,8 +115,9 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 250px;
-  height: 250px;
+  width: 75%;
+  height: 75%;
+  display: flex;
 }
 
 .box8 {
@@ -124,8 +130,9 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 250px;
-  height: 250px;
+  width: 75%;
+  height: 75%;
+  display: flex;
 }
 
 .box9 {
@@ -138,8 +145,9 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 250px;
-  height: 250px;
+  width: 75%;
+  height: 75%;
+  display; flex;
 }
 
 .box10{
@@ -152,8 +160,9 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 250px;
-  height: 250px;
+  width: 75%;
+  height: 75%;
+  display: flex;
 }
 
 header {
