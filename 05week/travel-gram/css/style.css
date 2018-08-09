@@ -7,29 +7,18 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: repeat(7, 1fr);
   grid-gap: 25px;
-  /* grid-template-areas:
-    ".box1"
-    ".box2"
-    ".box3"
-    ".box4"
-    ".box5"
-    ".box6"
-    ".box7"
-    ".box8"
-    ".box9"
-    ".box10" */
 }
 
 
 .box1 {
   grid-column: 1 / span 2;
   grid-row: 1 / 3;
-  display: flex
+  display: flex;
 }
 
 .box1image {
-  width: 75%;
-  height: 75%;
+  width: 50%;
+  height: 50%;
   margin-right: 8px;
   border-radius: 10%;
 }
@@ -41,29 +30,36 @@ body {
 }
 
 .box2image {
-  width: 75%;
-  height: 75%;
+  width: 50%;
+  height: 50%;
   margin-right: 8px;
   border-radius: 10%;
-
 }
 
 .box3 {
   grid-column: 1 / 3;
   grid-row: 3 / span 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .box3image {
-  width: 90%;
-  height: 90%;
+  width: 50%;
+  height: 50%;
   border-radius: 20%;
   margin-right: 8px;
-  display: flex;
 }
 
 .box4 {
   grid-column: 3;
   grid-row: 3 / span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
 }
 
 .box4image {
@@ -71,14 +67,17 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
-  height: 75%;
-  display: flex;
+  width: 50%;
+  height: 50%;
 }
 
 .box5 {
   grid-column: 4;
   grid-row: 3 / span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .box5image {
@@ -86,8 +85,8 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
-  height: 75%;
+  width: 50%;
+  height: 50%;
   display: flex;
 }
 
@@ -98,8 +97,8 @@ body {
 }
 
 .box6image {
-  width: 75%;
-  height: 75%;
+  width: 50%;
+  height: 50%;
   margin-right: 8px;
   border-radius: 10%;
   display: flex;
@@ -108,6 +107,10 @@ body {
 .box7 {
   grid-column: 1;
   grid-row: 6 / span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .box7image {
@@ -115,29 +118,40 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
-  height: 75%;
+  width: 50%;
+  height: 50%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .box8 {
   grid-column: 2;
   grid-row: 6 / span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .box8image {
   border-radius: 10%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
-  height: 75%;
+  width: 50%;
+  height: 50%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .box9 {
   grid-column: 3;
   grid-row: 6 / span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .box9image {
@@ -145,14 +159,18 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
-  height: 75%;
+  width: 50%;
+  height: 50%;
   display; flex;
 }
 
 .box10{
   grid-column: 4;
   grid-row: 6 / span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .box10image {
@@ -160,8 +178,8 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
-  height: 75%;
+  width: 50%;
+  height: 50%;
   display: flex;
 }
 
