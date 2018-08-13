@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tomorrow's Technology</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* For Tablet view*/
+      @media (max-width:768px){
+        body {
+          width:768px
+        }
+        .article2 {
+          display:none;
+        }
+      }
+      /* For Phone view */
+      @media (max-width:576px){
+        body {
+          width: 576px;
+          margin-right: : 10px;
+        }
+        .usefullinks {
+          width: 545px;
+        }
+      }
+      /* Removing bottom portion on desktop and tablet view. */
+      @media (min-width:576px){
+        .usefullinks {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="flex-container">
+      <article class="article1">
+        <main class="main">
+          <img src="./img/bg.jpg" alt="background image">
+          <h1>Tomorrow's Technology, Yesterday's Insights</h1>
+          <p>Sometimes what the tech world comes up with has already been tried and
+            rejected and really doesn't need to be resurrected &#8212; Like, the Taylorist
+            view...</p>
+          <h4><span>Technology</span></h4>
+          <div class="usefullinks">
+            <ul>
+              <h5>Useful Links</h5>
+              <li>About</li>
+              <li>Jobs</li>
+              <li>Team</li>
+              <li>Advertise</li>
+              <li>Terms</li>
+            </ul>
+            <ul>
+              <h5>Social Media</h5>
+              <li>Facebook<img src="./img/facebooklogo.png" alt="facebook logo"
+                style="width:20px;height:20px;"></li>
+              <li>Instagram<img src="./img/instagramlogo.png" alt="instagram logo"
+                style="width:20px;height:20px;"></li>
+              <li>Twitter<img src="./img/twitterlogo.png" alt="twitter logo"
+                style="width:20px;height:20px;"></li>
+            </ul>
+          </div>
+    </main></article>
+
+    <article class="article2">
+      <nav class="navbar">
+      <h2>Top Stories</h2>
+      <h3><a href="#">Stanford Researchers Make Artifical Skin That Senses Touch<h3>
+      <h3><a href="#">3 New Ways To Wear Your Favorite Chambrays Shirt</h3>
+      <h3><a href="#">Where To Buy Your Next Rug</h3>
+      <h3><a href="#">Chukkas That Offer Casual, Comfortable Style</h3>
+    </nav></article>
+
+    </div>
+  </body>
+</html>
